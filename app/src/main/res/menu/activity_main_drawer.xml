@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/Nav_tasks"
+            android:icon="@drawable/task_icon"
+            android:title="Tasks"></item>
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/todo_icon"
+            android:title="Todo"></item>
+        <item
+            android:id="@+id/Projects"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Projects"></item>
+        <item
+            android:id="@+id/nav_Employees"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Employees"></item>
+        <item
+            android:id="@+id/Notification"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Notification"></item>
+        <item
+            android:id="@+id/Calender"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Calender"></item>
+        <item
+            android:id="@+id/Chat"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Chat"></item>
+
+    </group>
+</menu>

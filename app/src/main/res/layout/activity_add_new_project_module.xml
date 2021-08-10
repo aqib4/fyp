@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@+id/app_bar_main_navigation_module"
+        layout="@layout/app_bar_main_navigation_module"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cancel"
+        android:padding="1dp"></ImageView>
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:textColor="@color/white"
+          android:text="Add New Project"
+          android:layout_marginHorizontal="120dp"
+          android:layout_marginVertical="5dp"
+
+          ></TextView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+
+        >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name..."
+            android:background="@null"
+            android:textSize="20sp"
+            android:textFontWeight="@integer/material_motion_duration_medium_2"
+            android:textColor="@color/black"
+            android:padding="30dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp">
+       </EditText>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textFontWeight="@integer/material_motion_duration_medium_2"
+            android:text="Contractor"
+            android:textSize="25sp"
+            android:background="@null"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"></TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Fyp..."
+            android:background="@null"
+            android:textSize="25sp"
+            android:textFontWeight="@integer/material_motion_duration_medium_2"
+            android:textColor="@color/black"
+            android:padding="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp">
+        </EditText>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
